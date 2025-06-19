@@ -1,12 +1,12 @@
 {
-	"id": "sony-srga12",
+	"id": "sony-srg-a12",
 	"name": "Sony SRG-A12",
 	"shortname": "SRG-A12",
 	"description": "Control Sony SRG-A12 PTZ cameras via VISCA over IP",
 	"version": "1.0.0",
 	"license": "MIT",
-	"repository": "git+https://github.com/bitfocus/companion-module-sony-srga12.git",
-	"bugs": "https://github.com/bitfocus/companion-module-sony-srga12/issues",
+	"repository": "git+https://github.com/bitfocus/companion-module-sony-srg-a12.git",
+	"bugs": "https://github.com/bitfocus/companion-module-sony-srg-a12/issues",
 	"maintainers": [
 		{
 			"name": "Louis De Jaeger",
