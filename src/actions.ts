@@ -484,7 +484,7 @@ export function UpdateActions(self: ModuleInstance): void {
 						self.log('error', `Connection test failed: ${error}`)
 						const diagnostics = await self.visca.diagnoseConnection()
 						self.log('info', 'Diagnostic information:')
-						diagnostics.forEach(issue => {
+						diagnostics.forEach((issue) => {
 							self.log('info', `  ${issue}`)
 						})
 					}

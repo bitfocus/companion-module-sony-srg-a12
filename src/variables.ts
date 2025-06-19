@@ -14,7 +14,7 @@ export function UpdateVariableDefinitions(self: ModuleInstance): void {
 		{ variableId: 'tilt_position', name: 'Tilt Position' },
 		{ variableId: 'zoom_position', name: 'Zoom Position' },
 	])
-	
+
 	// Set initial variable values
 	self.setVariableValues({
 		connection_status: self.visca?.isConnected() ? 'Connected' : 'Disconnected',
